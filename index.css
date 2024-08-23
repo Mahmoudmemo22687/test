@@ -1,0 +1,446 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 1440px;
+    height: 750px; */
+    background-color:#c6ffa4 ;
+    position: relative;
+    z-index: -1;
+    
+}
+.section2{
+    width: 570px;
+    height: 700px;
+    /* text-align: center;
+    justify-content: center;
+    align-items: center; */
+    /* margin-top: 100px; */
+}
+.section3{
+    margin-top: 200px;
+    text-align: end;
+} 
+
+.section1-h1{
+    font-size:50px ;
+}
+.section1-h2{
+    font-size: 30px;
+}
+.section1-link{
+    
+    padding: 10px;
+    background-color: green;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+.section1-link:hover{
+    background-color: white;
+    color: black;
+}
+.section-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.img1{
+    
+    text-align: center;
+    margin-top: 80px;
+    width:300px ;
+    height:180px ;
+    background-color: white;
+    border: 1px solid black;
+    margin-left: 800px;
+    position: absolute;
+    border-radius: 20px;
+    box-shadow: 10px 10px 70px black;
+    /* z-index: -1; */
+
+}
+.img2{
+    text-align: center;
+    
+    width:300px ;
+    height:180px ;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    border-radius: 20px;
+    box-shadow: 10px 10px 70px black;
+    /* z-index: -1; */
+}
+.img3{
+    margin-top: 80px;
+    text-align: center;
+    margin-right: 800px;
+    width:300px ;
+    height:180px ;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    border-radius: 20px;
+    box-shadow: 10px 10px 70px black;
+    /* z-index: -1; */
+}
+.section-talk {
+    margin-top:200px ;
+    text-align: center;
+}
+.section-divs{
+    background-color: #F8F9FB;
+}
+.section-divs1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.divs{
+    background-color:#FFFFFF;
+    width: 250px;
+    height: 300px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: end;
+    box-shadow: 10px 10px 30px black;
+    
+    
+}
+.divs-talk{
+    font-size: 20px;
+    margin: 10px;
+}
+.divs-talk1{
+    font-size:17px ;
+    margin: 10px;
+    color: rgb(59, 58, 58);
+}
+.divs-img1{
+    display: flex;
+}
+.div-end{
+    text-align: center;
+}
+.divs-link1{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    background-color: green;
+    border-radius: 10px;
+    text-decoration: none;
+    
+}
+.divs-link1:hover{
+background-color: white;
+color: black;
+}
+.section-div0{
+    width: 1500px;
+    height: 1000px;
+}
+.section-div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.section-divs-talk{
+    font-size: 40px;
+    margin-left: 20px;
+}
+.section-div2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100PX;
+}
+.section-div3{
+    text-align: center;
+}
+.section-div4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70PX;
+    margin-left: 80PX;
+}
+.section-div-img{
+    margin-bottom: 20px;
+}
+.section-div-talk{
+    margin-bottom: 20px;
+}
+.section-div-talk-1{
+    margin-bottom: 15px;
+    color: rgb(99, 102, 104);
+}
+.section-praic{
+    /* width: 1500px; */
+    height: 1400px;
+    
+    background: linear-gradient(to top, #77933C, #E6FFD7);
+
+}
+.section-praic-h1{
+    text-align: end;
+    padding-top: 200px;
+    padding-right: 40px;
+    font-size: 40px;
+}
+.section-praic-link{
+    text-align: center;
+    margin-top: 40px;
+}
+.section-praic-link1{
+    color: #E6FFD7;
+    font-size: 30px;
+    
+    text-decoration: none;
+    padding: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    background-color: #77933C;
+    border-radius:  0 10px 10px  0 ;
+}
+.section-praic-link2{
+    color: #77933C;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    background-color: #E6FFD7;
+    border-radius:  10px 0 0  10px ;
+    
+}
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background: linear-gradient(45deg, #ffaf00, #bb02ff); */
+}
+
+.container {
+position: relative;
+width: 1150px;
+padding: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.container .card {
+position: relative;
+width: 300px;
+height: 600px;
+background-color: #fff;
+margin: 20px;
+border-radius: 20px;
+overflow: hidden;
+box-shadow: 0 15px 25px rgba(0, 0, 0, .2);
+transition: .5s ease-in-out;
+}
+
+.container:hover .card {
+filter: blur(20px);
+transform: scale(.9);
+opacity: .5;
+}
+
+.container .card:hover {
+filter: blur(0);
+transform: scale(1);
+opacity: 1;
+}
+
+.container .card:hover .circle {
+clip-path: circle(600px);
+}
+
+.container .card:hover .content p {
+color: #fff;
+}
+
+.container .card:hover .content a {
+box-shadow: 1px 1px 2px rgba(0, 0, 0, .2),
+            -1px -1px 2px rgba(255, 255, 255, .4);
+}
+
+.container .card .content a:active {
+box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .1),
+            inset 5px 5px 5px rgba(0, 0, 0, .04),
+            inset -5px -5px 5px rgba(255, 255, 255, .07),
+            inset -1px -1px 2px rgba(255, 255, 255, .4);
+}
+
+.container .card .circle {
+position: relative;
+width: 100%;
+height: 100%;
+background: #000;
+clip-path: circle(180px at center 0);
+text-align: center;
+transition: 1s ease-in-out;
+}
+
+.container .card h2 {
+color: #fff;
+font-size: 4.5em;
+padding: 30px 0;
+}
+
+.container .card .content {
+position: absolute;
+bottom: 10px;
+padding: 20px;
+text-align: center;
+}
+
+.container .card .content p {
+color: #666;
+transition: .5s ease-in-out;
+}
+
+.container .card .content a {
+position: relative;
+display: inline-block;
+padding: 10px 20px;
+background: #000;
+color: #fff;
+border-radius: 40px;
+text-decoration: none;
+margin-top: 20px;
+transition: .8s ease-in-out;
+}
+
+.container .card:nth-child(1) .circle,
+.container .card:nth-child(1) .content a {
+background:#77933C;
+}
+
+.container .card:nth-child(2) .circle,
+.container .card:nth-child(2) .content a {
+background: #77933C;
+}
+
+.container .card:nth-child(3) .circle,
+.container .card:nth-child(3) .content a {
+background: #77933C;
+}
+
+@keyframes colorChange {
+0% {
+    color: #fff;
+}
+
+50% {
+    color: #b1b493;
+}
+
+80% {
+    color: #4f8a8b;
+}
+
+100% {
+    color: #fff;
+}
+}
+
+/* =======================Responsive Breakpoint ========================== */
+
+@media only screen and (max-width: 992px) {
+/* Add responsive styles for max-width 992px */
+}
+
+@media only screen and (max-width: 768px) {
+/* Add responsive styles for max-width 768px */
+}
+.section-matkr{
+    height: 800px;
+    background-color:#DDF6CA ;
+}
+.section-matkr-talk{
+   text-align: center;
+   padding-top: 150px;
+   font-size: 30px;
+}
+.section-matkr-img-talk{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+
+
+}
+.section-matkr-img{
+    display: flex;
+    justify-content: flex-end;
+    text-align: end;
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+.section-matkr-talk2{
+    font-size: 25px;
+    color:#24834E ;
+    margin-bottom: 10px;
+}
+.section-matkr-talk3{
+    font-size: 20px;
+    color:#50555D ;
+}
+.section-matkr1{
+    height: 800px;
+
+}
+.section-matkr-talk10{
+   text-align: center;
+   padding-top: 150px;
+   font-size: 30px;
+}
+.section-matkr-img-talk20{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+
+
+}
+.section-matkr-img11{
+    display: flex;
+    justify-content: flex-end;
+    text-align: end;
+    
+    
+    background: linear-gradient(to right , #77933C, #32B56C);
+   
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding-left: 100px;
+}
+.section-matkr-talk22{
+    font-size: 20px;
+    color:white ;
+    margin-bottom: 10px;
+}
+.section-matkr-talk33{
+    font-size: 20px;
+    color:#50555D ;
+}
